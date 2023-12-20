@@ -1,31 +1,27 @@
 # sales-analysis-and-forecasting
 O uso de Machine Learning é importante para aumentar a competitividade das empresas ao prever vendas futuras. Neste projeto foi feita uma análise e previsão de vendas de mais de mil lojas da Rossman.
 
-Para as previsões foi utilizado o Facebook Prophet. O Prophet é um procedimento de previsão implementado em R e Python. É rápido e fornece previsões totalmente automatizadas que podem ser ajustadas manualmente por cientistas e analistas de dados.
+Foram utiizados os seguintes algoritmos:
 
-<p align="center">
-  <img src="https://github.com/math3usvalenca/sales-analysis-and-forecasting/assets/131549523/77884e6d-5cce-4a24-879f-c6fce2311949"/>
-</p>
+- Linear Regression
+- Random Forest Regressor
+- Lasso Regression
+- XGBoost Regressor
 
-<p align="center">
-  https://facebook.github.io/prophet/
-</p>
+O modelo final escolhido foi o XGBoost Regressor. Além disso, uma análise exploratória de dados foi realizada e diversos insights foram obtidos, como:
 
+- lojas com maior sortimento vendem menos ✅
+-  lojas com competidores mais próximos vendem mais ✅
+-  lojas com competidores a mais tempo vendem menos ✅
+-  lojas com promoções a mais tempo vendem menos, isto é, quanto mais tempo dura uma promoção, mais as vendas vão caindo ✅
+-  lojas vendem menos no feriado de natal ✅
+-  lojas vendem menos ao longo dos anos, e menos depois do primeiro semestre de cada ano ✅
+-  as vendas apresentam uma queda ao se aproximar do final de semana ✅
+-  lojas vendem menos durante os feriados escolares ✅
 
-<br/>
-<br/>
+Amostra de gráficos construídos:
 
-Também foram retirados alguns insights como:
-
-- o número médio de clientes por dia é de 762 ✅
--  média de vendas por dia é de 6955 ✅
--  os dias com maiores valores de venda são segunda feira e domingo ✅
--  o dia menos lucrativo é o sábado ✅
--  quando as lojas estavam em promoção os volumes das vendas eram maiores ✅
--  os feriados escolares parece não afetar os valores das vendas ✅
--  quando as lojas optaram por promoções contínuas as vendas caíram e o número de clientes diminuiu ✅
--  os meses mais lucrativos foram novembro e dezembro ✅
--  de março a agosto a média de vendas esteve na casa dos 7000 euros aproxidamente ✅
-
+<img width=800 src="./data/output2.png"/>
+<img  width=600 src="./data/output.png"/>
 
 
